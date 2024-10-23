@@ -35,7 +35,7 @@ export default function Home() {
 
         <motion.div
           onClick={() => {
-            router.push("/destination");
+            router.push("/solar");
           }}
           variants={SCALE_UP}
           className="bg-white w-48 h-48 rounded-full flex items-center justify-center font-primary tracking-[1.25px] uppercase relative group md:w-60 md:h-60 lg:w-72 lg:h-72"
